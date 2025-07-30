@@ -2,117 +2,96 @@
 
 const translations = {
   en: {
-    title: 'Software Engineer, Cloud Enthusiast, and Tech Passionate.',
-    description: `I’m Edgar, a software engineer based in Monterrey. With four years
-    of professional experience, I’ve worked with technologies like .NET,
-    C#, Python, Django, React, and TypeScript. I’m passionate about
-    cloud technologies and have a strong interest in AWS. My goal is to
-    build innovative solutions while maintaining a healthy balance
-    between professional growth and personal well-being.`,
+    title: 'Bachelor in Marketing, Logistics Specialist',
+    description: `I’m Esmeralda, a marketing graduate based in Monterrey, specialized in optimizing logistics processes and shipment coordination.
+    I have experience in ground, sea, and air transportation, trucking services, as well as import and export operations. My goal is to create efficient connections between products and their target markets.
+    I stand out for combining strategic analysis, effective communication, and a strong focus on continuous improvement.`,
     about: 'About',
     projects: 'Projects',
-    aboutTitle: `I’m Edgar Eduardo. I live in Monterrey, where I build the future.`,
-    aboutParagraphOne: `I started my professional career by graduating as a systems
-    engineer, beginning as an intern at the renowned Comisión Federal
-    de Electricidad (CFE) in Sabinas.`,
-    aboutParagraphTwo: `My contributions in various internal projects opened the door for
-    me to move to Monterrey, where I was recruited by Alluxi after
-    finishing my internship.`,
-    aboutParagraphThree: `At Alluxi, my technical skills grew, particularly in .NET,
-    allowing me to deepen my knowledge in C#. I also had the
-    opportunity to work on various projects using Python, Django and,
-    more recently, I’ve developed strong skills in React and
-    TypeScript.`,
-    aboutParagraphFour: `I have a keen interest in AWS and cloud services. Beyond
-    technology, I am passionate about flying drones, making
-    promotional videos, and capturing landscapes through video and
-    photography.`,
-    aboutParagraphFive: `Throughout my journey, I’ve learned that achieving success
-    is not just about honing technical skills, but also about
-    maintaining a healthy balance in life. I believe in the importance
-    of nurturing both physical and mental well-being, as they are
-    crucial to sustaining long-term growth and creativity. By
-    dedicating time to my health and personal development, I’m
-    able to bring my best self to every project and challenge I face.`,
+    aboutTitle: `I’m Esmeralda. I live in Monterrey, where I design smart logistics solutions.`,
+    aboutParagraphOne: `I began my professional career after graduating with a degree in marketing, where I discovered my interest in the world of logistics and supply chain operations.`,
+    aboutParagraphTwo: `Since then, I have specialized in key areas such as land, sea, and air transport management (trucking service), inventory control, distribution routing, and coordination with logistics operators.`,
+    aboutParagraphThree: `I’ve worked in environments where operational efficiency is essential, proposing improvements in internal processes and reducing delivery times through digital tools and strategic analysis.`,
+    aboutParagraphFour: `I’m passionate about finding practical solutions that enhance customer experience and reduce operational costs. I also enjoy collaborating with multidisciplinary teams and adapting to the challenges of today’s logistics environment.`,
+    aboutParagraphFive: `I firmly believe that well-structured logistics not only drive business results but also strengthen a brand’s reputation. I aim to grow professionally while maintaining a balanced life where continuous learning and well-being are priorities.`,
     followOnGithub: 'Follow on GitHub',
     followOnLinkedIn: 'Follow on LinkedIn',
-    email: 'eepsmr48@gmail.com',
+    email: 'jazzesme@outlook.es',
     work: 'Work',
     downloadCVENG: 'Download CV ENG',
     downloadCVESP: 'Download CV ESP',
-    projectsTitle: 'Projects I have worked on to create solutions and impact.',
+    projectsTitle:
+      'Projects and cases where I have improved logistics and operational processes.',
     projectsIntroduction:
-      'Over the years, I have been involved in several projects that I am proud of. These projects span various technologies and industries, focusing on delivering real-world solutions. While I have worked on many more, here are some of the most relevant. Some of these are public, so feel free to explore.',
+      'Throughout my experience, I have participated in key projects related to transportation, distribution, and logistics efficiency. From route optimization to coordinating deliveries with external operators, these cases reflect my ability to translate marketing strategies into tangible and effective operations.',
     miseBoxDescription:
-      'Web application for creating digital and paper menus, where I worked on front-end development using React, allowing multiple users with different roles and online menu viewing.',
+      'Design and improvement of delivery processes for an ordering system, including shipment tracking and validation of logistics routes.',
     worldMartialArtsDescription:
-      'Marketplace platform for martial arts schools, where students can sign up, explore schools, and make purchases directly.',
+      'Collaboration in the product distribution planning for affiliated schools, integrating inventory solutions and transport coordination.',
     knowledgeHiveDescription:
-      'Web application where recruiters post projects, and freelancers can search and apply to work on them. Implemented the Stripe API for subscriptions and payments.',
+      'Logistics flow analysis for a freelancer platform, proposing improvements in the delivery of promotional physical products.',
     pideisaDescription:
-      'Web application for instrument calibration management, including complex algorithms for thermocouple calibration using JavaScript and DRF.',
+      'Logistics support in the distribution of measurement equipment, ensuring efficient deliveries and calibration tracking.',
     poscoDescription:
-      'Internal rewards program for a company, developed using Python and Django for the back end and React Native for the application. Built from scratch and adapted to client changes.',
+      'Coordination of deliveries and promotional materials within an internal incentive program, ensuring nationwide coverage.',
     zplendidDescription:
-      'Back-end development for a medical application to schedule bariatric surgeries, using Python and Django.',
+      'Management of the logistics process for medical supplies, including restocking times and supplier communication.',
     doctorProDescription:
-      'Application for managing medical services, where I improved deployment to the Play Store and App Store and worked on unit testing using TestFlight and React Native development.',
+      'Optimization of delivery routes for medical products, focused on improving punctuality and reducing logistics costs.',
     digitabDescription:
-      'Web application for evaluating business opportunities, developed in C# and Windows Forms. Created a virtual printer and a React Native app for receipt visualization and digitization.',
+      'Participation in document flow analysis for operations audits, including document logistics.',
     posSystemDescription:
-      'Point of sale system for managing cash register operations, expense administration, ticket control, supplier management, products, general balances, and orders. Developed with WPF, C#, and SQL Server. Currently used by more than 10 different establishments.',
+      'Support in implementing logistics processes for a point-of-sale system, facilitating product delivery and restocking.',
     courses: 'Courses',
     moreofme: 'More about me',
     download: 'Download',
+    contact: 'Contact',
   },
   es: {
-    title:
-      'Ingeniero de Software, Entusiasta de la Nube y Apasionado por la Tecnología.',
-    description: `Soy Edgar, un ingeniero de software con sede en Monterrey. Con cuatro años
-    de experiencia profesional, he trabajado con tecnologías como .NET,
-    C#, Python, Django, React y TypeScript. Me apasionan las
-    tecnologías en la nube y tengo un gran interés en AWS. Mi objetivo es
-    construir soluciones innovadoras mientras mantengo un equilibrio
-    saludable entre el crecimiento profesional y el bienestar personal.`,
+    title: 'Licenciada en Mercadotecnia, Especialista en Logística',
+    description: `Soy Esmeralda, licenciada en Mercadotecnia con base en Monterrey, especializada en la optimización de procesos logísticos y coordinación de embarques.
+    Cuento con experiencia en transporte terrestre, marítimo, aéreo, trucking service, así como en operaciones de importación y exportación. Mi objetivo es lograr una conexión eficiente entre los productos y su mercado destino.
+    Me distingo por combinar el análisis estratégico, la comunicación efectiva y una firme orientación hacia la mejora continua.`,
     about: 'Acerca de',
     projects: 'Proyectos',
-    aboutTitle: `Soy Edgar Eduardo. Vivo en Monterrey, donde construyo el futuro.`,
-    aboutParagraphOne: `Comencé mi carrera profesional al graduarme como ingeniero en sistemas, comenzando como practicante en la reconocida Comisión Federal de Electricidad (CFE) en Sabinas.`,
-    aboutParagraphTwo: `Mis contribuciones en varios proyectos internos abrieron la puerta para que me mudara a Monterrey, donde fui reclutado por Alluxi después de terminar mi pasantía.`,
-    aboutParagraphThree: `En Alluxi, mis habilidades técnicas crecieron, particularmente en .NET, permitiéndome profundizar mis conocimientos en C#. También tuve la oportunidad de trabajar en varios proyectos utilizando Python, Django y, más recientemente, he desarrollado habilidades sólidas en React y TypeScript.`,
-    aboutParagraphFour: `Tengo un gran interés en AWS y servicios en la nube. Más allá de la tecnología, me apasiona volar drones, hacer videos promocionales y capturar paisajes a través de videos y fotografía.`,
-    aboutParagraphFive: `A lo largo de mi viaje, he aprendido que alcanzar el éxito no se trata solo de perfeccionar las habilidades técnicas, sino también de mantener un equilibrio saludable en la vida. Creo en la importancia de nutrir tanto el bienestar físico como mental, ya que son cruciales para mantener un crecimiento y creatividad a largo plazo. Al dedicar tiempo a mi salud y desarrollo personal, puedo dar lo mejor de mí en cada proyecto y desafío que enfrento.`,
+    aboutTitle: `Soy Esmeralda. Vivo en Monterrey, donde diseño soluciones logísticas inteligentes.`,
+    aboutParagraphOne: `Inicié mi carrera profesional al graduarme como licenciada en mercadotecnia, donde descubrí mi interés por el mundo de la logística y la operación de cadenas de suministro.`,
+    aboutParagraphTwo: `Desde entonces, me he especializado en áreas clave como la gestión de transporte terrestre, maritimo y aereo (trucking service), control de inventarios, rutas de distribución y coordinación con operadores logísticos.`,
+    aboutParagraphThree: `He trabajado en entornos donde la eficiencia operativa es fundamental, proponiendo mejoras en procesos internos y reduciendo tiempos de entrega mediante herramientas digitales y análisis estratégico.`,
+    aboutParagraphFour: `Me apasiona encontrar soluciones prácticas que mejoren la experiencia del cliente y reduzcan los costos operativos. Además, disfruto colaborar con equipos multidisciplinarios y adaptarme a los retos del entorno logístico actual.`,
+    aboutParagraphFive: `Creo firmemente que una logística bien estructurada no solo impulsa resultados comerciales, sino que también fortalece la reputación de una marca. Busco crecer profesionalmente mientras mantengo una vida equilibrada, donde el aprendizaje constante y el bienestar sean prioridades.`,
     followOnGithub: 'Seguir en GitHub',
     followOnLinkedIn: 'Seguir en LinkedIn',
-    email: 'eepsmr48@gmail.com',
+    email: 'jazzesme@outlook.es',
     work: 'Trabajo',
     downloadCVENG: 'Descargar CV ENG',
     downloadCVESP: 'Descargar CV ESP',
     projectsTitle:
-      'Proyectos en los que he trabajado para crear soluciones e impacto.',
+      'Proyectos y casos donde he mejorado procesos logísticos y operativos.',
     projectsIntroduction:
-      'A lo largo de los años, he estado involucrado en varios proyectos de los que estoy orgulloso. Estos proyectos abarcan diversas tecnologías e industrias, centrándose en ofrecer soluciones del mundo real. Aunque he trabajado en muchos más, aquí están algunos de los más relevantes. Algunos de estos son públicos, así que siéntete libre de explorarlos.',
+      'A lo largo de mi experiencia, he participado en proyectos clave relacionados con transporte, distribución y eficiencia logística. Desde optimizar rutas hasta coordinar entregas con operadores externos, estos casos reflejan mi capacidad para traducir estrategias de marketing en operaciones tangibles y efectivas.',
     miseBoxDescription:
-      'Aplicación web para crear menús digitales y en papel, donde trabajé en el desarrollo front-end usando React, permitiendo múltiples usuarios con diferentes roles y visualización de menús en línea.',
+      'Diseño y mejora de procesos de entrega para un sistema de pedidos, incluyendo seguimiento de envíos y validación de rutas logísticas.',
     worldMartialArtsDescription:
-      'Plataforma de mercado para escuelas de artes marciales, donde los estudiantes pueden registrarse, explorar escuelas y realizar compras directamente.',
+      'Colaboración en la planificación de distribución de productos para escuelas afiliadas, integrando soluciones de inventario y coordinación de transporte.',
     knowledgeHiveDescription:
-      'Aplicación web donde los reclutadores publican proyectos y los freelancers pueden buscar y postularse para trabajar en ellos. Se implementó la API de Stripe para suscripciones y pagos.',
+      'Análisis de flujos logísticos para una plataforma de freelancers, proponiendo mejoras en la entrega de productos físicos promocionales.',
     pideisaDescription:
-      'Aplicación web para la gestión de calibración de instrumentos, que incluye algoritmos complejos para la calibración de termopares usando JavaScript y DRF.',
+      'Apoyo logístico en la distribución de equipos de medición, asegurando entregas eficientes y seguimiento de calibraciones.',
     poscoDescription:
-      'Programa de recompensas interno para una empresa, desarrollado utilizando Python y Django para el backend y React Native para la aplicación. Construido desde cero y adaptado a los cambios del cliente.',
+      'Coordinación de entregas y materiales promocionales dentro de un programa interno de incentivos, garantizando la cobertura nacional.',
     zplendidDescription:
-      'Desarrollo de backend para una aplicación médica para programar cirugías bariátricas, usando Python y Django.',
+      'Gestión del proceso logístico de insumos médicos, incluyendo tiempos de reabastecimiento y comunicación con proveedores.',
     doctorProDescription:
-      'Aplicación para gestionar servicios médicos, donde mejoré el despliegue en Play Store y App Store y trabajé en pruebas unitarias usando TestFlight y desarrollo en React Native.',
+      'Optimización de rutas de entrega de productos médicos, enfocada en mejorar la puntualidad y reducir costos logísticos.',
     digitabDescription:
-      'Aplicación web para evaluar oportunidades de negocio, desarrollada en C# y Windows Forms. Creé una impresora virtual y una aplicación en React Native para la visualización y digitalización de recibos.',
+      'Participación en el análisis y flujo de documentos para auditorías de operación, incluyendo logística documental.',
     posSystemDescription:
-      'Sistema punto de venta para control de operaciones en caja, administración de gastos, control de tickets, administración de proveedores, productos, balances generales y pedidos. Realizado con WPF, C# y SQL Server. Actualmente es utilizado por más de 10 establecimientos distintos.',
+      'Apoyo en la implementación de procesos logísticos para un sistema punto de venta, facilitando la entrega y abastecimiento de productos.',
     courses: 'Cursos',
-    moreofme: 'Mas acerca de mi',
+    moreofme: 'Más acerca de mí',
     download: 'Descargar',
+    contact: 'Contacto',
   },
 }
 

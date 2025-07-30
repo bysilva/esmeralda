@@ -12,10 +12,13 @@ import image3 from '@/images/photos/image-3.jpg'
 import image4 from '@/images/photos/image-4.jpg'
 import image5 from '@/images/photos/image-5.jpg'
 
+import portrait from '@/images/portrait.jpg'
+
 import SkillsTable from '@/components/SkillsTable'
 import Resume from '@/components/Resume'
 import { useTranslation } from '@/context/TranslationContext'
 import Courses from '@/components/Courses'
+import ContactInfo from '@/components/ContactInfo'
 
 function SocialLink({
   icon: Icon,
@@ -63,19 +66,34 @@ export default function Home() {
   return (
     <>
       <Container className="mt-9">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            {t('title')}
-          </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            {t('description')}{' '}
-            <Link href={'/about'} className="font-bold underline">
-              {t('about')}
-            </Link>
-          </p>
+        <div className="w-full">
+          <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
+            {/* Columna izquierda: Texto */}
+            <div>
+              <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
+                {t('title')}
+              </h1>
+              <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+                {t('description')}{' '}
+                {/* <Link href="/about" className="font-bold underline">
+                  {t('about')}
+                </Link> */}
+              </p>
+            </div>
+
+            {/* Columna derecha: Imagen */}
+            <div className="flex justify-center lg:justify-end">
+              <Image
+                src={portrait}
+                alt=""
+                sizes="(min-width: 1024px) 32rem, 20rem"
+                className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+              />
+            </div>
+          </div>
 
           <div className="mt-6 flex gap-6">
-            <SocialLink
+            {/* <SocialLink
               href="https://github.com/bysilva"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
@@ -84,19 +102,21 @@ export default function Home() {
               href="https://mx.linkedin.com/in/edgar-eduardo-piedra-silva"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
-            />
+            /> */}
           </div>
         </div>
       </Container>
-      <Photos />
-      <Container className="mt-24 md:mt-28">
+      {/* <Photos /> */}
+      <div className="mx-auto w-full max-w-6xl border-t border-gray-300 lg:px-8" />
+      <Container className="mt-12 md:mt-12">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
             <SkillsTable />
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
             <Resume />
-            <Courses />
+            {/* <Courses /> */}
+            <ContactInfo />
           </div>
         </div>
       </Container>

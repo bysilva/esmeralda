@@ -405,7 +405,7 @@ export function Header() {
                     'var(--header-inner-position)' as React.CSSProperties['position'],
                 }}
               >
-                <div className="relative">
+                {/* <div className="relative">
                   <AvatarContainer
                     className="absolute left-0 top-3 origin-left transition-opacity"
                     style={{
@@ -418,7 +418,7 @@ export function Header() {
                     className="block h-16 w-16 origin-left"
                     style={{ transform: 'var(--avatar-image-transform)' }}
                   />
-                </div>
+                </div> */}
               </div>
             </Container>
           </>
@@ -440,16 +440,16 @@ export function Header() {
           >
             <div className="relative flex gap-4">
               <div className="flex flex-1">
-                {!isHomePage && (
+                {/* {!isHomePage && (
                   <AvatarContainer>
                     <Avatar />
                   </AvatarContainer>
-                )}
+                )} */}
               </div>
-              <div className="flex flex-1 justify-end md:justify-center">
+              {/* <div className="flex flex-1 justify-end md:justify-center">
                 <MobileNavigation className="pointer-events-auto md:hidden" />
                 <DesktopNavigation className="pointer-events-auto hidden md:block" />
-              </div>
+              </div> */}
               <div className="flex justify-end md:flex-1">
                 <div className="pointer-events-auto">
                   <ThemeToggle />
@@ -462,12 +462,12 @@ export function Header() {
           </Container>
         </div>
       </header>
-      {isHomePage && (
+      {/* {isHomePage && (
         <div
           className="flex-none"
           style={{ height: 'var(--content-offset)' }}
         />
-      )}
+      )} */}
     </>
   )
 }
