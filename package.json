@@ -1,7 +1,7 @@
 {
   "name": "tailwindui-template",
   "version": "0.1.0",
-  "homepage": "https://bysilva.github.io/portfolio",
+  "homepage": "https://bysilva.github.io/esmeralda",
   "private": true,
   "scripts": {
     "dev": "next dev",
