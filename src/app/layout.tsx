@@ -7,12 +7,10 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - Edgar Eduardo',
-    default:
-      'Edgar Eduardo - Software Engineer, Cloud Enthusiast, and Tech Passionate',
+    template: '%s - Esmeralda Vega',
+    default: 'Esmeralda Vega - Licenciada en mercadotecnia',
   },
-  description:
-    'I’m Edgar, a software engineer based in Monterrey. With four years of professional experience, I’ve worked with technologies like .NET, C#, Python, Django, React, and TypeScript. I’m passionate about cloud technologies and have a strong interest in AWS. My goal is to build innovative solutions while maintaining a healthy balance between professional growth and personal well-being.',
+  description: '',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
